@@ -4,12 +4,12 @@ export default defineNuxtConfig({
     css:{
       preprocessorOptions:{
         scss:{
-          additionalData: '@import "@/assets/scss/function.scss";'
+          additionalData: '@import "@/assets/scss/functions.scss";'
         }
       }
     }
   },
   css: [
-    '~/assets/scss/style.scss',
+    '~/assets/scss/front.scss',
   ]
 })
