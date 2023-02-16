@@ -9,11 +9,10 @@
   </nav>
 </template>
 
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <style lang="scss">
-.navbar_nav{
+.navbar_nav {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid;
